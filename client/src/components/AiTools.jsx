@@ -9,11 +9,11 @@ const AiTools = () => {
 
     return (
         <div className='px-4 sm:px-20 x1:px-32 my-24'>
-            <div className='justify-center'>
+            <div className='text-center'>
                 <h2 className='text-slate-700 text-[42px] font-semibold'>Powerful Ai Tools</h2>
                 <p className='text-gray-500 max-w-lg mx-auto'>Everything you need to create, enhance and optimize</p>
             </div>
-            <div className='flex flex-wrap mt-10 text-center'>
+            <div className='flex flex-wrap mt-10 justify-center'>
                 {AiToolsData.map((tool, index) => (
                     <div
                         key={index}
