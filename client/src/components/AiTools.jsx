@@ -9,7 +9,7 @@ const AiTools = () => {
 
     return (
         <div className='px-4 sm:px-20 x1:px-32 my-24'>
-            <div className='text-center'>
+            <div className='justify-center'>
                 <h2 className='text-slate-700 text-[42px] font-semibold'>Powerful Ai Tools</h2>
                 <p className='text-gray-500 max-w-lg mx-auto'>Everything you need to create, enhance and optimize</p>
             </div>
